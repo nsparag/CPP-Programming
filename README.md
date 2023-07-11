@@ -12,4 +12,4 @@ This repository is about the basics of C++ programming.
 
 [Constant Variable](constantVariable.cpp)
 
-[Knowling the size of variables](sizeOfVariables.cpp)
+[Know the size of variables](sizeOfVariables.cpp)
