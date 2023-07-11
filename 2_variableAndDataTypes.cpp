@@ -20,3 +20,13 @@ int main()
         cout << "The value of myStringVar is " << myStringVar <<endl;
         cout << "The value of myBoolVar is " << myBoolVar <<endl;
 }
+
+/* ********************************* Sample Outut ******************************** 
+The value of myIntVar is 45
+The value of myFloatVar is 23.4
+The value of myDoubleVar is 19.98
+The value of myCharVar is #
+The value of myStringVar is Hello
+The value of myBoolVar is 1
+
+********************************* Outut ******************************** */
