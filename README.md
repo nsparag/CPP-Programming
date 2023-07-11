@@ -1,9 +1,10 @@
-# C++ Programming Basics
+# Basics of C++ Programming
 
-This repository is about the basics of C++ programming
+This repository is about the basics of C++ programming. 
 
 
-The first C++ Program - [Hello World](helloWorld.cpp)
+
+[The first C++ Program Hello World](helloWorld.cpp)
 
 [Variables and Data Types](variableAndDataTypes.cpp)
 
