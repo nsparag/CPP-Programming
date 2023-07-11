@@ -11,3 +11,5 @@ This repository is about the basics of C++ programming.
 [Input and Output](inputAndOutput.cpp)
 
 [Constant Variable](constantVariable.cpp)
+
+[Knowling the size of variables](sizeOfVariables.cpp)
