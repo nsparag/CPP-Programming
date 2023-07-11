@@ -13,3 +13,5 @@ This repository is about the basics of C++ programming.
 [Constant Variable](constantVariable.cpp)
 
 [Know the size of variables](sizeOfVariables.cpp)
+
+[Boolean VAriable](booleanVariableExample.cpp)
