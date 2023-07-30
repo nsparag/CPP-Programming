@@ -2,16 +2,18 @@
 
 This repository is about the basics of C++ programming. 
 
+[Basics](basics)
+* Hello World
+* Variables
+* Data Types
+* Input - Output
+* 
+[Bitwise Operators](bitwise operators)
 
+[Conditional Statements](conditional statements)
+* if
+* if else
+* switch case
+  
+[Array](array)
 
-[The first C++ Program Hello World](helloWorld.cpp)
-
-[Variables and Data Types](variableAndDataTypes.cpp)
-
-[Input and Output](inputAndOutput.cpp)
-
-[Constant Variable](constantVariable.cpp)
-
-[Know the size of variables](sizeOfVariables.cpp)
-
-[Boolean Variable Example](booleanVariableExample.cpp)
