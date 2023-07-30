@@ -7,7 +7,7 @@ This repository is about the basics of C++ programming.
 * Variables
 * Data Types
 * Input - Output
-* 
+
 [bitwise operators](https://github.com/nsparag/CPP-Programming/tree/ee61f2a6cc80a1d8450edd3d4164070697744749/bitwise%20operators)
 * AND
 * OR
@@ -18,8 +18,13 @@ This repository is about the basics of C++ programming.
 * if
 * if else
 * switch case
-  
+
 [Array](array)
 * Declaration and Initialization
 * Input and Display
 
+[String](https://github.com/nsparag/CPP-Programming/tree/677f5c32fdefbc209e2ef181fea1410cf38e0875/string)
+* Declarations
+* Input and Output
+* String Operations
+* String Functions
