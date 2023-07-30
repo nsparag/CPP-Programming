@@ -10,7 +10,7 @@ This repository is about the basics of C++ programming.
 * 
 [Bitwise Operators](bitwise operators)
 
-[Conditional Statements](conditional statements)
+[conditional statements](https://github.com/nsparag/CPP-Programming/tree/8d608f66d23a6b67cedff7bc9416c0eb6dedcbd9/conditional%20statements)
 * if
 * if else
 * switch case
