@@ -8,7 +8,7 @@ This repository is about the basics of C++ programming.
 * Data Types
 * Input - Output
 * 
-[Bitwise Operators]([bitwise operators](https://github.com/nsparag/CPP-Programming/tree/ee61f2a6cc80a1d8450edd3d4164070697744749/bitwise%20operators)
+[bitwise operators](https://github.com/nsparag/CPP-Programming/tree/ee61f2a6cc80a1d8450edd3d4164070697744749/bitwise%20operators)
 * AND
 * OR
 * NOT
