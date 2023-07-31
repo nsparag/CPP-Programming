@@ -28,3 +28,8 @@ This repository is about the basics of C++ programming.
 * Input and Output
 * String Operations
 * String Functions
+
+[2D array - Matrix](https://github.com/nsparag/CPP-Programming/tree/4c965390c29177875e127d698fba4153afbe052c/matrix)
+* Declarations
+* Addition of matrices
+* Multiplication of matrices
