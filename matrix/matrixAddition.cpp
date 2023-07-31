@@ -21,9 +21,9 @@ int main()
        }
 
     // Storing elements of second matrix entered by user.
-    cout << "Enter number of rows for matrix 1: ";
+    cout << "Enter number of rows for matrix 2: ";
     cin >> row2;
-    cout << "Enter number of columns for matrix 1: ";
+    cout << "Enter number of columns for matrix 2: ";
     cin >> column2;
     cout << endl << "Enter elements of 1st matrix: " << endl;
 
@@ -50,7 +50,7 @@ int main()
         }
     }
     else
-      cout << "Check Dimentions" <<endl<< "matrix1 :"<< row1 <<"x"<<column1 <<endl << "matrix2 :"<< row2 <<"x"<<column2 <<endl <<"Dimentions of given matrices are not equal; operation can not be performed";
+      cout << "Check Dimensions" <<endl<< "matrix1 :"<< row1 <<"x"<<column1 <<endl << "matrix2 :"<< row2 <<"x"<<column2 <<endl <<"Dimentions of given matrices are not equal; operation can not be performed";
 
     return 0;
 }
