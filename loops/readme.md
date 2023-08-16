@@ -24,7 +24,7 @@ Example:
       std::cout << iterator;
     }
 
-## for loop with multiple declarations
+### for loop with multiple declarations
 
 Syntax:
 
@@ -36,4 +36,36 @@ Example:
 
     for(int i = 0, j = 1, k = 10; j<10 ; i++, j++, k--){
       std::cout << i+j+k;
+    }
+
+### range-based for loop
+1
+
+    int group[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    for(int value : group}
+        std::cout << value << endl;
+
+2
+
+    for(int value : {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}
+        std::cout << value << endl;
+
+3
+
+    for(auto value : {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}
+        std::cout << value << endl;
+
+## while loop
+
+Syntax:
+
+    while(condition){
+      // loop body
+      }
+
+Example:
+
+    while(iterator<10){
+      std::cout << iterator;
+      iterator++;
     }
