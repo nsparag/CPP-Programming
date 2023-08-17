@@ -8,16 +8,22 @@ This repository is about the basics of C++ programming.
 * Data Types
 * Input - Output
 
+[Conditional Statements](https://github.com/nsparag/CPP-Programming/tree/616f2013a50f478a0d7dca7960700622c8f2e361/conditional%20statements)
+* if
+* if else
+* switch case
+
+[Loops](https://github.com/nsparag/CPP-Programming/tree/616f2013a50f478a0d7dca7960700622c8f2e361/loops)
+* for loop
+* range-based for loop
+* while loop
+* do while loop
+
 [bitwise operators](https://github.com/nsparag/CPP-Programming/tree/ee61f2a6cc80a1d8450edd3d4164070697744749/bitwise%20operators)
 * AND
 * OR
 * NOT
 * Shift
-
-[Conditional Statements](https://github.com/nsparag/CPP-Programming/tree/8d608f66d23a6b67cedff7bc9416c0eb6dedcbd9/conditional%20statements)
-* if
-* if else
-* switch case
 
 [Array](array)
 * Declaration and Initialization
@@ -33,3 +39,7 @@ This repository is about the basics of C++ programming.
 * Declarations
 * Addition of matrices
 * Multiplication of matrices
+
+[class and object](https://github.com/nsparag/CPP-Programming/tree/616f2013a50f478a0d7dca7960700622c8f2e361/class%20and%20object)
+* Declaration
+* Basic operation
