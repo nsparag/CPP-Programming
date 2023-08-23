@@ -72,4 +72,43 @@
         return 0;
     }
 
-    
+## Constructor And Destructor
+
+* Constructor - Constructor helps to initialize the object of a class
+* Destructor - It helps to deallocate the memory of an object.
+* defined inside the class
+
+          // Constructor - executes when the object is created
+        Cube(){
+            cout << "Cube object created; Constructor executed successfully."<<endl;
+        }
+        // Destructor - executes when the program terminates
+        ~Cube(){
+            cout << "Cube object destroyed; Destructor executed successfully."<<endl;
+        }    
+
+## Setter and Getter
+* setter - setting the value of a private variable
+* getter - getting/accessing the value of a private variable
+
+        //setter - to set values of private variables
+        void set_height(double height_parameter){
+            height = height_parameter;
+        }
+        void set_width(double width_parameter){
+            width = width_parameter;
+        }
+        void set_length(double length_parameter){
+            length = length_parameter;
+        }        
+
+        //setter - to get/access values of private variables
+        double get_height(){
+            return height;
+        }
+        double get_width(){
+            return width;
+        }
+        double get_length(){
+            return length;
+        }  
