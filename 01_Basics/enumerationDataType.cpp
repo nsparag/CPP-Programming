@@ -6,7 +6,7 @@ enumeration data types; The below two programs works exactly the same.
 using namespace std;
 int main()
 {
-	enum Month {Red, Blue, Green};
+	enum Month {Red, Blue, Green};	// the values 0, 1, 2, ... assigned automatically when the type is defined
 	cout << "The color Blue is present at " << Blue << " number." << endl;
 	return 0;
 }
