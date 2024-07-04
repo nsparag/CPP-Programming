@@ -71,22 +71,7 @@
         double vol = cube1.volume();
         cube1.displayVol(vol);
         return 0;
-    }
-
-## Constructor And Destructor
-
-* Constructor - Constructor helps to initialize the object of a class
-* Destructor - It helps to deallocate the memory of an object.
-* defined inside the class
-
-          // Constructor - executes when the object is created
-        Cube(){
-            cout << "Cube object created; Constructor executed successfully."<<endl;
-        }
-        // Destructor - executes when the program terminates
-        ~Cube(){
-            cout << "Cube object destroyed; Destructor executed successfully."<<endl;
-        }    
+    }   
 
 ## Setter and Getter
 * setter - setting the value of a private variable
@@ -113,3 +98,46 @@
         double get_length(){
             return length;
         }  
+
+## Constructor And Destructor
+
+* Constructor - Constructor helps to initialize the object of a class
+* Destructor - It helps to deallocate the memory of an object.
+* defined inside the class
+
+  Constructor - executes when the object is created
+  
+        Cube(){
+            cout << "Cube object created; Constructor executed successfully."<<endl;
+        }
+
+  Destructor - executes when the program terminates
+  
+        ~Cube(){
+            cout << "Cube object destroyed; Destructor executed successfully."<<endl;
+        }
+**Example Constructor Function**
+
+    class Cube{
+        private:
+            double height = 1.0;
+            double width = 1.0;
+            double length = 1.0;
+        public:    
+          Cube(){
+              height = 10;
+              width = 10;
+              length = 10;
+          }
+        Cube(double h, double w, double l){
+            height = h;
+            width = w;
+            length = l;
+        }
+    };
+    
+    int main() {
+        Cube cube1;                 // cube1 object is initialised with height = 10, width = 10 and length = 10
+        Cube cube2(20,20,10);       // cube2 object is initialised with height = 20, width = 20 and length = 20
+        return 0;
+    }
