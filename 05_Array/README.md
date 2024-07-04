@@ -16,3 +16,23 @@ Array elements can be assessed using the index.
 
 ##### Declare and initialize array
     int matrix[4][2] = {{2, 3}, {4, 5}, {1, 6}, {7, 8}}; //2D array with 4 rows and 2 columns
+
+# Passing Array to Function
+````
+int sum(int[], int);
+int main()
+{
+int arr[] = {10, 11, 12, 13};
+int size = sizeof(arr)/sizeof(int);
+cout << "sum of elements is " << sum(arr,size) << endl;
+return 0;
+}
+
+int sum(int temp[], int s)
+{
+    int sum = 0;
+    for(int i=0; i<s; i++)
+        sum += temp[i];
+    return sum;
+}
+````
