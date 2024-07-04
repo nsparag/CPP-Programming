@@ -47,3 +47,55 @@ The sample output for this code is
     	max(m,n) = 55; // changes the value of m from 44 to 55
     	cout << m << ", " << n << ", " << max(m,n) << endl;
     }
+
+## `new` and `delete` operators
+
+* Fundamental for managing memory allocation and deallocation on the heap
+* Provide a mechanism for programmers to dynamically allocate memory for objects and arrays during program execution and then release that memory when it's no longer needed.
+
+**`new` operator:**
+* Used to allocate memory dynamically for objects or arrays of objects at runtime.
+* It takes a memory allocation request as input, specifying the size and type of memory to be allocated.
+
+syntax
+
+    dataType* pointerVariable = new dataType;  // Allocates memory for a single object
+    dataType* pointerArray = new dataType[arraySize];  // Allocates memory for an array
+
+Example
+
+int* ptr = new int;  // Allocates memory for an integer
+*ptr = 42;  // Assigns value 42 to the allocated memory
+
+    int* numbers = new int[10];  // Allocates memory for an array of 10 integers
+    numbers[0] = 10;  // Assigns value 10 to the first element of the array
+
+**`delete` operator:**
+* Used to deallocate memory that was previously allocated using new.
+* It takes a pointer as input, pointing to the memory block to be released.
+  
+syntax
+
+    delete pointerVariable;  // Deallocates memory for a single object
+    delete[] pointerArray;  // Deallocates memory for an array
+
+Example
+
+    delete pointerVariable;  // Deallocates memory for a single object
+    delete[] pointerArray;  // Deallocates memory for an array
+
+**Avoiding Memory Leaks**
+* Memory Leaks: Improper memory management using new and delete can lead to memory leaks. If you allocate memory with new but forget to deallocate it with delete, the memory remains occupied even if it's not being used, potentially impacting program performance.
+* Dangling Pointers: After deallocating memory with delete, the pointer used to access that memory becomes a dangling pointer. Using a dangling pointer can lead to undefined behavior or crashes. It's essential to set the pointer to nullptr after deallocation to avoid this issue.
+
+Example to avoid memory leak
+
+    int* ptr = new int;
+    *ptr = 42;
+    
+    // Use the allocated memory
+    ...
+    
+    // Deallocate the memory when finished
+    delete ptr;
+    ptr = nullptr;  // Set the pointer to nullptr to avoid dangling pointer issues
