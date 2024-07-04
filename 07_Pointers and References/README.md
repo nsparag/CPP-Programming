@@ -29,6 +29,24 @@ The sample output for this code is
     pn = 0x7fff0c5e51c4
     *pn = 44
 
+## `const` Pointer
+* This type of pointer itself is constant, meaning its address cannot be changed after initialization.
+* It can point to either a constant or non-const variable.
+    * In this case incrementing or decrementing a pointer is not allowed.
+    * changing a value where pointer is locating is allowed
+
+Delcaring a `const` Pointer
+
+    int* const ptr;
+
+
+## Pointer to a constant
+* This type of pointer points to a constant value.
+* You can read the value through the pointer, but you cannot modify it.
+
+Delcaring a Pointer to `const`
+    
+    const int* ptr;
 
 ## Returning a reference
 
