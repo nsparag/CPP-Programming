@@ -1,4 +1,4 @@
-# Referencing
+# Pointers and References
 
 ## Basic
     #include <iostream>
@@ -21,6 +21,14 @@
 
     	return 0;
     }
+The sample output for this code is
+
+    n = 44
+    &n = 0x7fff0c5e51c4
+    rn = 44
+    pn = 0x7fff0c5e51c4
+    *pn = 44
+
 
 ## Returning a reference
 
