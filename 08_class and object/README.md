@@ -124,20 +124,50 @@
             double width = 1.0;
             double length = 1.0;
         public:    
-          Cube(){
-              height = 10;
-              width = 10;
-              length = 10;
-          }
-        Cube(double h, double w, double l){
-            height = h;
-            width = w;
-            length = l;
-        }
+            Cube(){
+                height = 10;
+                width = 10;
+                length = 10;
+            }
+            Cube(double h, double w, double l){
+                height = h;
+                width = w;
+                length = l;
+            }
     };
     
     int main() {
         Cube cube1;                 // cube1 object is initialised with height = 10, width = 10 and length = 10
         Cube cube2(20,20,10);       // cube2 object is initialised with height = 20, width = 20 and length = 20
+        return 0;
+    }
+
+**Copy Constructors**
+* a copy constructor is a special member function that creates a new object of the same class by initializing it with an existing object of the same class.
+* It's essentially used to copy the state of one object to another.
+
+Example Constructor Function
+
+    class Cube{
+        private:
+            double height = 1.0;
+            double width = 1.0;
+            double length = 1.0;
+        public:    
+            Cube(double h, double w, double l){
+                height = h;
+                width = w;
+                length = l;
+            }
+            Cube(const Cube& cb){
+                height = cb.height;
+                width = cb.width;
+                length = cb.length;
+            }
+    };
+    
+    int main() {
+        Cube cube2(20,20,10);       // cube2 object is initialised with height = 20, width = 20 and length = 20
+        Cube cube3(cube2);          // cube2 object is initialised with height = 20, width = 20 and length = 20; same as that of cube2
         return 0;
     }
