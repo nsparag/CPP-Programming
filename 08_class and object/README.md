@@ -1,4 +1,10 @@
-# class and object
+# Class and object
+
+* A **class** can be described as **data and some functionality on that data, wrapped into one**.
+  * A class is a user-defined type.
+  * It consists of members.
+  * The members are data members and member functions.
+* An **instance of a class** is called an **object**.
 
 #### A simple program to declare a class and object
 
