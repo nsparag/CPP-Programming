@@ -1,5 +1,27 @@
 # Pointers and References
 
+## Introduction
+
+### Pointer
+Pointers are types that can hold the address of a particular object.
+
+````
+char ch = '#';                // variable declaration and initialization
+char *ptr = &ch;              // **pointer** declaration and initialization
+char new_ch = *ptr;           // Dereferencing, value of ch will be assigned to ch_new
+````
+### References
+A reference type is an alias to an existing object in memory.
+````
+char ch = '#';
+char &ref = ch;               // reference declaration and initialization; ref is now alias of ch
+char new_ch = ref;            // Dereferencing, value of ch will be assigned to ch_new
+````
+
+### Key Difference
+* Pointers can be null, but references cannot; they must always refer to a valid object.
+* Pointers can be re-assigned to point to different objects, whereas references are fixed once initialized.
+
 ## Basic
     #include <iostream>
     using namespace std;
