@@ -29,6 +29,9 @@ The sample output for this code is
     pn = 0x7fff0c5e51c4
     *pn = 44
 
+## `nullptr`
+To initialize a pointer that does not point to any object, we can use the `nullptr`
+
 ## `const` Pointer
 * This type of pointer itself is constant, meaning its address cannot be changed after initialization.
 * It can point to either a constant or non-const variable.
