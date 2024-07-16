@@ -36,3 +36,55 @@
     
     	return 0;
     }
+
+# `static` Specifier
+* The static specifier says the object will have a static storage duration.
+* The memory space for static objects is allocated when the program starts and deallocated when the program ends.
+* Only one instance of a static object exists in the program.
+* If a local variable is marked as static, the space for it is allocated the first time the program control encounters its definition and deallocated when the program exits.
+  
+**Example (without static variable):**
+````
+#include <iostream>
+void myfunction()
+{
+    int x = 0; // defined every rime
+    x++;
+    std::cout << "Function ran: " << x << " time(s)." << '\n';
+}
+int main()
+{
+    myfunction();
+    myfunction();
+    myfunction();
+}
+````
+Output: 
+````
+Function ran: 1 time(s).
+Function ran: 1 time(s).
+Function ran: 1 time(s).
+````
+
+**Example (with static variable):**
+````
+#include <iostream>
+void myfunction()
+{
+    static int x = 0; // defined only the first time, skipped every other time
+    x++;
+    std::cout << "Function ran: " << x << " time(s)." << '\n';
+}
+int main()
+{
+    myfunction(); // x == 1
+    myfunction(); // x == 2
+    myfunction(); // x == 3
+}
+````
+Output: 
+````
+Function ran: 1 time(s).
+Function ran: 2 time(s).
+Function ran: 3 time(s).
+````
