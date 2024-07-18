@@ -17,6 +17,13 @@ Components:
         * `basic_string` - generalizes the notion of character string allowing string of any type (char, wchar_t)
         * `valarray` - mathematical array of values, provides a convenient and efficient way to perform mathematical operations on arrays of numeric data
         * `bitset` - represents a fixed-size sequence of bits, providing efficient bitwise operations
-2. **Algorithms**
-3. **Iterators**
-4. **Function Objects**
+2. **Algorithms** - set of algorithms that work with various containers
+   * `sort` - sorting algorithm
+   * `binary_search` - search if an element exists in a sorted range
+   * `find` - Searches for the first occurrence of a value
+   * `stack` - stack data structure
+   * `queue` - queue data structure
+   * and there are many algorithms
+   
+4. **Iterators**
+5. **Function Objects**
