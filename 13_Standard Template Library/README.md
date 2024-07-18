@@ -1,4 +1,4 @@
-# STL stands for Standard Template Library
+# STL: Standard Template Library
 
 * It is a collection of C++ template classes and functions that provide essential data structures and algorithms to perform common tasks efficiently.
 
