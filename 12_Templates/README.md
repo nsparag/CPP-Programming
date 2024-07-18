@@ -85,3 +85,28 @@ int main(){
     obj1.setData('$');
 }
 ````
+# Template Specialization
+If we want our template to behave differently, only for a specific type, we provide the template specialization.
+
+Example: this will behave separately for 'int' type.
+````
+// Generic Template
+template <typename T>
+void myfunction(T arg)
+{
+    std::cout << "The value is: " << arg << endl;
+}
+// int specific Template
+template <>
+void myfunction(int arg)
+{
+    std::cout << "The INTEGER value  is: " << arg << endl;
+}
+
+int main(){
+    myfunction(12.23);	// uses generic template
+    myfunction('A');	// uses generic template
+    myfunction(12);	// uses specific int template
+    return 0;
+}
+````
