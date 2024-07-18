@@ -52,3 +52,36 @@ The values of a parameter 1 & 2: 123 & 123.456
 The values of a parameter 1 & 2: 123.456 & A
 The values of a parameter 1 & 2: A & 123
 ````
+# Class Template
+* a class template is a mechanism that allows you to define a class with generic types.
+* create a single class template that can work with different data types without rewriting the class implementation for each type.
+
+Syntax:
+````
+template <class T>
+class MyTemplate {
+    // Class definition
+};
+
+````
+Example:
+````
+template <class T>
+class MyTemplate {
+private:
+    T data;
+public:
+    T getData(){	// getter to get the 'data' value
+	return data;	
+    }
+    void setData(T variable){	// setter to set the 'data' value
+	data = variable;	
+    }
+};
+int main(){
+    MyTemplate<int> obj1;
+    obj1.setData(10);
+    MyTemplate<char> obj2;
+    obj1.setData('$');
+}
+````
