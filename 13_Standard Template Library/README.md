@@ -25,5 +25,6 @@ Components:
    * `queue` - queue data structure
    * and there are many algorithms
    
-4. **Iterators**
+4. **Iterators - allows to access and traverse the elements of a container in a generic way
+   * 
 5. **Function Objects**
