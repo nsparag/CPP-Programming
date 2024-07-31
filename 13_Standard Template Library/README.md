@@ -24,3 +24,17 @@ Components:
    * `stack` - stack data structure
    * `queue` - queue data structure
    * and there are many algorithms
+3. **Iterator** - allows to traverse and access the elements of a container, such as a vector, list, or array, in a sequential manner
+   * Categories
+      * Input iterator - used to read the values from the container
+      * Output iterator - used to assign the values
+      * Forward iterator - combination of input and output operators
+      * Bidirectional iterator - similar to forward iterator, but can move in both the directions
+      * Random access iterator - bidirectional iterators with random access
+   * Operations
+      * `begin()` - returns the beginning position of the container
+      * `ens()` - returns the after position of the end position in the container
+      * `advance()` - increment the iterator position
+      * `next()` - returns the new iterator that the iterator would point after advancing the positions
+      * `prev()` - returns the new iterator that the iterator would point after decrementing the positions
+      * `inserter()` - insert the elements at any position
