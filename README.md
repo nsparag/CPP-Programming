@@ -27,16 +27,16 @@ int main() {
     return 0;
 }
 ````
-[01_Basics](https://github.com/nsparag/CPP-Programming/tree/main/01_Basics)
-[02_Conditional Statements](https://github.com/nsparag/CPP-Programming/tree/main/02_Conditional%20Statements)
-[03_Loops](https://github.com/nsparag/CPP-Programming/tree/main/03_Loops)
-[04_Functions](https://github.com/nsparag/CPP-Programming/tree/main/04_Functions)
-[05_Array](https://github.com/nsparag/CPP-Programming/tree/main/05_Array)
-[06_Strings](https://github.com/nsparag/CPP-Programming/tree/main/06_Strings)
-[07_Pointers and References](https://github.com/nsparag/CPP-Programming/tree/main/07_Pointers%20and%20References)
-[08_class and object](https://github.com/nsparag/CPP-Programming/tree/main/08_class%20and%20object)
-[09_Overloading Operator]
-[10_Inheritance]
-[11_Polymorphism]
-[12_Templates]
-[13_Standard Template Library]
+* [01_Basics](https://github.com/nsparag/CPP-Programming/tree/main/01_Basics)
+* [02_Conditional Statements](https://github.com/nsparag/CPP-Programming/tree/main/02_Conditional%20Statements)
+* [03_Loops](https://github.com/nsparag/CPP-Programming/tree/main/03_Loops)
+* [04_Functions](https://github.com/nsparag/CPP-Programming/tree/main/04_Functions)
+* [05_Array](https://github.com/nsparag/CPP-Programming/tree/main/05_Array)
+* [06_Strings](https://github.com/nsparag/CPP-Programming/tree/main/06_Strings)
+* [07_Pointers and References](https://github.com/nsparag/CPP-Programming/tree/main/07_Pointers%20and%20References)
+* [08_class and object](https://github.com/nsparag/CPP-Programming/tree/main/08_class%20and%20object)
+* [09_Overloading Operator]
+* [10_Inheritance]
+* [11_Polymorphism]
+* [12_Templates]
+* [13_Standard Template Library]
